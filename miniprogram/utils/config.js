@@ -1,17 +1,17 @@
 /**
  * 打赏二维码
  */
-var moneyUrl ="https://test-91f3af.tcb.qcloud.la/common/WechatIMG66.jpeg?sign=38e2cccbf86dd602ae575c89b2911b16&t=1556369699"
+var moneyUrl ="https://tva1.sinaimg.cn/large/0082zybpgy1gcb6djnt60j30u00u0mzr.jpg"
 
 /**
  * 公众号二维码
  */
-var wechatUrl ="https://test-91f3af.tcb.qcloud.la/common/WechatIMG2.jpeg?sign=e81a38eec6cebfc82c1c34bb7e233bae&t=1556369822"
+var wechatUrl ="https://tva1.sinaimg.cn/large/0082zybpgy1gcb65ef5sgj30u00u0tcq.jpg"
 
 /**
  * 云开发环境
  */
-var env ="product-raeub"
+var env ="phdluffy"
 //var env ="test-91f3af"
 /**
  * 个人文章操作枚举
