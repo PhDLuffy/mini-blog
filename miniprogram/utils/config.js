@@ -11,7 +11,7 @@ var wechatUrl ="https://tva1.sinaimg.cn/large/0082zybpgy1gcb65ef5sgj30u00u0tcq.j
 /**
  * 云开发环境
  */
-var env ="phdluffy"
+var env ="phdluffy-blog"
 //var env ="test-91f3af"
 /**
  * 个人文章操作枚举
