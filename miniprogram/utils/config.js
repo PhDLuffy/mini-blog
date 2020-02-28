@@ -29,7 +29,7 @@ var postRelatedType = {
     }
 };
 
-var subcributeTemplateId ="RC3mj5KcltrA17ROZxP0SamhKp12taeSgRN8wmGpR6g"
+var subcributeTemplateId="RC3mj5KcltrA17ROZxP0SamhKp12taeSgRN8wmGpR6g"
 
 module.exports = {
     postRelatedType: postRelatedType,
