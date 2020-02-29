@@ -1,4 +1,7 @@
 {
+  "navigationBarTitleText": "照片",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
   "usingComponents": {
     "brickLayout": "plugin://brickLayout/brickLayout"
   }
