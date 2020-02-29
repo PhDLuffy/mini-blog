@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/topic/topic",
+    "pages/photo/photo",
     "pages/mine/mine",
     "pages/topic/topiclist/topiclist",
     "pages/detail/detail",
@@ -42,6 +43,12 @@
         "text": "专题"
       },
       {
+        "pagePath": "pages/photo/photo",
+        "iconPath": "/images/tab/icon_seo.png",
+        "selectedIconPath": "/images/tab/icon_seo_HL.png",
+        "text": "照片"
+      },
+      {
         "pagePath": "pages/mine/mine",
         "iconPath": "/images/tab/mine.png",
         "selectedIconPath": "/images/tab/mine_clicked.png",
@@ -49,5 +56,11 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "brickLayout": {
+      "version": "0.2.0",
+      "provider": "wx3c042630f3cdc175"
+    }
+  }
 }
