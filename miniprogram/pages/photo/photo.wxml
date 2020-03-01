@@ -1,4 +1,4 @@
-<brick-layout 
+<brickLayout 
     dataSet="{{dataSet}}"  
     option="{{brick_option}}" 
     bind:tapCard="tapCard" 

@@ -69,7 +69,7 @@ Page({
       // fontColor:'black'
     }
   },
-
+  
   // 改变卡片展开状态事件的回调
   handleExpand: function(event) {
     console.log(event.detail)
