@@ -47,7 +47,18 @@ Page({
     await this.getPostsList("")
     wx.stopPullDownRefresh();
   },
+/**微信公众号关注 */
+  bindLoad: function (e) {
+    var status = e.detail.status;
+    var errMsg = e.detail.errMsg;
+    console.log("official-account bind load#status=" + status + ", errMsg=" + errMsg)
+  },
 
+  bindError: function (e) {
+    var status = e.detail.status;
+    var errMsg = e.detail.errMsg;
+    console.log("official-account bind error#status=" + status + ", errMsg=" + errMsg)
+  },
   /**
    * 页面上拉触底事件的处理函数
    */

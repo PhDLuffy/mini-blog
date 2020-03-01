@@ -32,6 +32,7 @@
     </view>
   </scroll-view>
 </view>
+<official-account style="width:100%;height:168rpx;" bindload="bindLoad" binderror="bindError"></official-account>
 <!-- 文章列表 -->
 <view class="cu-card dynamic no-card">
   <view wx:for="{{posts}}" wx:key="idx" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}" id="{{item._id}}" bindtap="bindPostDetail" class="cu-item shadow solids-bottom">

@@ -6,7 +6,7 @@ const db = cloud.database()
 const _ = db.command
 
 //收到评论通知
-const template = 'RC3mj5KcltrA17ROZxP0SamhKp12taeSgRN8wmGpR6g'
+const template = 'cwYd6eGpQ8y7xcVsYWuTSC-FAsAyv5KOAVGvjJIdI9Q'
 
 // 云函数入口函数
 exports.main = async (event, context) => {
@@ -77,11 +77,11 @@ async function sendSubscribeMessage(event) {
       touser: openId,
       page: event.page,
       data: {
-        name1: {
-          value: nickName
-        },
-        thing2: {
+        thing1: {
           value: event.content
+        },
+        name2: {
+          value: nickName
         },
         time3: {
           value: event.createDate
