@@ -46,7 +46,7 @@
         "pagePath": "pages/photo/photo",
         "iconPath": "/images/tab/icon_seo.png",
         "selectedIconPath": "/images/tab/icon_seo_HL.png",
-        "text": "照片"
+        "text": "摄影"
       },
       {
         "pagePath": "pages/mine/mine",
