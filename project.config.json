@@ -56,9 +56,10 @@
 					"scene": "1011"
 				},
 				{
-					"id": -1,
-					"name": "pages/index/index",
+					"id": 1,
+					"name": "扫码进入小程序",
 					"pathName": "pages/index/index",
+					"query": "",
 					"scene": 1011
 				}
 			]

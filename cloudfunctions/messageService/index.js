@@ -6,7 +6,7 @@ const db = cloud.database()
 const _ = db.command
 
 //收到评论通知
-const template = 'RC3mj5KcltrA17ROZxP0SRuRC6gPZxxcFxrRYcZbAQU'
+const template = 'cwYd6eGpQ8y7xcVsYWuTSC-FAsAyv5KOAVGvjJIdI9Q'
 
 // 云函数入口函数
 exports.main = async (event, context) => {
