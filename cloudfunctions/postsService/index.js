@@ -7,7 +7,7 @@ const _ = db.command
 const dateUtils = require('date-utils')
 
 const towxml = new Towxml();
-const COMMENT_TEMPLATE_ID = 'RC3mj5KcltrA17ROZxP0SRuRC6gPZxxcFxrRYcZbAQU'
+const COMMENT_TEMPLATE_ID = 'WTRithwRH6kd1WYwgbL8j1Vr54I0-sIwJiI5sroF0r4'
 
 // 云函数入口函数
 exports.main = async (event, context) => {

@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    templates: [{ "priTmplId": "RC3mj5KcltrA17ROZxP0SRuRC6gPZxxcFxrRYcZbAQU", "title": "留言通知" }],
+    templates: [{ "priTmplId": "WTRithwRH6kd1WYwgbL8j1Vr54I0-sIwJiI5sroF0r4", "title": "留言通知" }],
     isShow: false,
     templateIds: [],
     curTemPlatedId: "",

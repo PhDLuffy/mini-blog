@@ -29,7 +29,7 @@ var postRelatedType = {
     }
 };
 
-var subcributeTemplateId = "RC3mj5KcltrA17ROZxP0SRuRC6gPZxxcFxrRYcZbAQU" //更改订阅消息ID，可以更换通知模板
+var subcributeTemplateId = "WTRithwRH6kd1WYwgbL8j1Vr54I0-sIwJiI5sroF0r4" //更改订阅消息ID，可以更换通知模板
 
 module.exports = {
     postRelatedType: postRelatedType,
