@@ -84,18 +84,42 @@ Page({
       {
         id: '21',
         images: ['https://phdluffy.com/photo/images/gallery/21.jpg']
-      }, {
+      }, 
+      {
         id: '22',
         images: ['https://phdluffy.com/photo/images/gallery/22.jpg']
-      }, {
+      }, 
+      {
         id: '23',
         images: ['https://phdluffy.com/photo/images/gallery/23.jpg']
-      }, {
+      }, 
+      {
         id: '24',
         images: ['https://phdluffy.com/photo/images/gallery/24.jpg']
-      }, {
+      }, 
+      {
         id: '25',
         images: ['https://phdluffy.com/photo/images/gallery/25.jpg']
+      },
+      {
+        id: '26',
+        images: ['https://phdluffy.com/photo/images/gallery/26.jpg']
+      },
+      {
+        id: '27',
+        images: ['https://phdluffy.com/photo/images/gallery/27.jpg']
+      },
+      {
+        id: '28',
+        images: ['https://phdluffy.com/photo/images/gallery/28.jpg']
+      },
+      {
+        id: '29',
+        images: ['https://phdluffy.com/photo/images/gallery/29.jpg']
+      },
+      {
+        id: '30',
+        images: ['https://phdluffy.com/photo/images/gallery/30.jpg']
       },
     ],
     brick_option: {
