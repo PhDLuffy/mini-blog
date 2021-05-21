@@ -1,7 +1,7 @@
 /**
  * 打赏二维码
  */
-var moneyUrl ="https://tva1.sinaimg.cn/large/0082zybpgy1gcb6djnt60j30u00u0mzr.jpg"
+var moneyUrl ="https://cdn.jsdelivr.net/gh/PhDLuffy/PicGo@master/img/20210521212652.jpg"
 
 /**
  * 公众号二维码
