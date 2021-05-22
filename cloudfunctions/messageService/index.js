@@ -6,7 +6,7 @@ const db = cloud.database()
 const _ = db.command
 
 //收到评论通知
-const template = 'WTRithwRH6kd1WYwgbL8j1Vr54I0-sIwJiI5sroF0r4'
+const template = 'WTRithwRH6kd1WYwgbL8j_Lj_H40F55e39qlcUeo_gA'
 
 // 云函数入口函数
 exports.main = async (event, context) => {
@@ -47,10 +47,10 @@ async function sendSubscribeMessage(event) {
   console.info(event)
   var openId = ""
   if (event.tOpenId == "") {
-    openId = process.env.author
+    openId = 'oXpwE5nJA61aH6vKQDJfrN_qjgfk'
   }
   else if (event.tOpenId == event.cOpenId) {
-    openId = process.env.author
+    openId = 'oXpwE5nJA61aH6vKQDJfrN_qjgfk'
   }
   else{
     openId=event.tOpenId
@@ -77,13 +77,13 @@ async function sendSubscribeMessage(event) {
       touser: openId,
       page: event.page,
       data: {
-        thing2: {
+        thing3: {
           value: event.content
         },
-        name1: {
+        thing2: {
           value: nickName
         },
-        time3: {
+        time4: {
           value: event.createDate
         }
       },
