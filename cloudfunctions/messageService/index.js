@@ -47,10 +47,10 @@ async function sendSubscribeMessage(event) {
   console.info(event)
   var openId = ""
   if (event.tOpenId == "") {
-    openId = 'oXpwE5nJA61aH6vKQDJfrN_qjgfk'
+    openId = process.env.author
   }
   else if (event.tOpenId == event.cOpenId) {
-    openId = 'oXpwE5nJA61aH6vKQDJfrN_qjgfk'
+    openId = process.env.author
   }
   else{
     openId=event.tOpenId
